@@ -8,11 +8,29 @@
     <title>Snake Game</title>
   </head>
   <body>
-    <div>
-      <h1>Snake Game</h1>
-      <button class="btn" id="start">Start / Restart</button>
-      <div class="grid"></div>
-      <h2>Score: <span id="score">0</span></h2>
+    <div class="container">
+      <div class="grid">
+        <section class="start">
+          <h1>Snake Game</h1>
+          <select class="select">
+            <option value="novice">Novice</option>
+            <option value="rookie">Rookie</option>
+            <option value="master">Master</option>
+          </select>
+          <button class="btn" id="start">Start</button>
+        </section>
+        <section class="finish display-none">
+          <h2>Game Over</h2>
+          <h2>Score: <span id="finish-score">0</span></h2>
+          <select class="select">
+            <option value="novice">Novice</option>
+            <option value="rookie">Rookie</option>
+            <option value="master">Master</option>
+          </select>
+          <button class="btn" id="restart">Restart Game</button>
+        </section>
+      </div>
+      <h3>Score: <span id="score">0</span></h3>
     </div>
     <script src="./assets/js/app.js"></script>
   </body>

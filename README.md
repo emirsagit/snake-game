@@ -1,6 +1,14 @@
 # A Snake Game Created By Pure JavaScript
 
-![screenshot](./app_screenshot1.png)
+The old Snake Game was created By Vanilla JavaScript.
+Functionality:
+- Snake grows as it catches apples.
+- User score increase as snake catches apples.
+- Snake speed up to a certain point as it catches apples.
+- Apples move to another place after randomly but logically created time.
+- User can select games level (novice, rookie, master) (speed and max-speed increase as level up, apple relocation time decreases as level up)
+
+![screenshot](./app_screenshot.jpg)
 
 ## Built With
 
@@ -8,12 +16,12 @@
 
 ## Live
 
-<!-- [A Dice Game ](https://emirsagit.github.io/dice-game/) -->
+[Snake Game ](https://emirsagit.github.io/snake-game/)
 
 ## Getting Started
 
-To get a local copy up and running first you need to clone the repo. After that, open index.html with your browser. 
-    
+To get a local copy up and running first you need to clone the repo. After that, open index.html with your browser.
+
 ## Authors
 
 👤 **Emir Sağıt**
@@ -24,7 +32,7 @@ To get a local copy up and running first you need to clone the repo. After that,
 
 ## Thanks
 
-Thanks to the [Scrimba](https://scrimba.com/). I learned front-end development main concepts from it. 
+Inspired from [Scrimba](https://scrimba.com/) lesson. I personally recommend it to everyone who wants to be a front-end developer.
 
 ## 🤝 Contributing
 
